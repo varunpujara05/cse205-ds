@@ -3,7 +3,7 @@ class Solution {
         
         HashMap<Integer, Integer> hm = new HashMap<>();
         int n = nums.length;
-
+        
         for (int i = 0; i < n; i++) {
 
             int cmpt = target - nums[i];
