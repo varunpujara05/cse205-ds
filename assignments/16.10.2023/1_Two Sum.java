@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < n; i++) {
 
             int cmpt = target - nums[i];
-
+            
             if (hm.containsKey(cmpt)) {
                 return new int[]{hm.get(cmpt), i};
             }
